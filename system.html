@@ -712,7 +712,7 @@ function enviarComentario() {
   if (cliente !== '' && comentarios !== '') {
     // Criar um objeto com as informações do registro
     const registro = {
-      cliente1: cliente,
+      cliente: cliente,
       comentarios: comentarios,
       dataHora: new Date().toLocaleString()
     };
